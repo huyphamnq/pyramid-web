@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pyramid</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body style="background-color: #000;">
+    <div class="main">
+        <header class="header">
+            <div class="logo">Pyramid</div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="./index.html">Trang chủ</a></li>
+                    <li class="nav-item nav-item--active"><a href="#">Lịch sử</a></li>
+                    <li class="nav-item"><a href="./khampha.html">Khám phá</a></li>
+                    <li class="nav-item"><a href="./tour.html">Tour</a></li>
+                </ul>
+
+                <div class="menu">
+                    <div class="btn-menu" onclick="on()">
+                        <i class="fa-solid fa-bars"></i>
+                        
+                        <div id="overlay">
+                            <button class="btn-close" onclick="off()">
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+                            <div class="menu">
+                                <ul class="menu-list">
+                                    <li class="menu-item"><a href="#">Trang chủ</a></li>
+                                    <li class="menu-item menu-item--active a"><a href="./lichsu.html">Lịch sử</a></li>
+                                    <li class="menu-item"><a href="./khampha.html">Khám phá</a></li>
+                                    <li class="menu-item"><a href="./tour.html">Tour</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="container">
+            <div class="content">
+                <div class="section2">
+                    <img src="./assets/img/slide2-bg-lichsu.png" alt="" class="section-img">
+                    <h1 class="section-title2">
+                        Khám phá  Bí mật <br>
+                        Trường Tồn của Kim Tự Tháp
+                    </h1>
+                </div>
+
+                <h1 class="timeline-title">CÁC GIAI ĐOẠN LỊCH SỬ</h1>
+                <div class="timeline">
+                    <div class="timeline-content left-timeline-content">
+                        <img src="./assets/img/timeline1.png" alt="">
+                        <div class="text-box">
+                            <h2>Pharaoh Djoser và Kim Tự Tháp bậc thang tại Saqqara.</h2>
+                            <small>Năm 2650 TCN</small>
+                            <p>Pharaoh Djoser thuộc Vương triều thứ 3 của Ai Cập cổ đại. Ông muốn xây dựng một nơi an nghỉ vĩnh cửu để thể hiện quyền lực và tôn kính thần linh.
+                                Kim Tự Tháp bậc thang là công trình kiến trúc đầu tiên được làm hoàn toàn bằng đá. Với chiều cao khoảng 62m, đây là bước đột phá trong kỹ thuật xây dựng thời kỳ đó.
+                                Kiến trúc sư Imhotep đã thiết kế công trình này. Ông được xem là cha đẻ của kiến trúc Ai Cập và sau này được tôn kính như một vị thần của tri thức và y học.</p>
+                            <span class="left-timeline-content-arrow"></span>
+                        </div>
+                    </div>
+                    <div class="timeline-content right-timeline-content">
+                        <img src="./assets/img/timeline1.png" alt="">
+                        <div class="text-box">
+                            <h2>Kim Tự Tháp Giza của Pharaoh Khufu</h2>
+                            <small> Năm 2570 TCN</small>
+                            <p>Pharaoh Khufu (hay Cheops) của Vương triều thứ 4 quyết định xây dựng một công trình hoành tráng nhằm khẳng định quyền lực tuyệt đối của mình.
+                                Kim Tự Tháp Giza, với chiều cao ban đầu khoảng 146,6m (hiện nay là 138,5m do bị xói mòn), được coi là kỳ quan vĩ đại nhất trong Thế giới Cổ đại.
+                                Thời gian xây dựng: Khoảng 20 năm với sự góp sức của hàng nghìn công nhân và kỹ sư. Các khối đá nặng hàng tấn được vận chuyển từ các mỏ đá cách xa hàng chục km.
+                                Đây là Kim Tự Tháp duy nhất còn tồn tại nguyên vẹn trong số bảy kỳ quan cổ đại.</p>
+                            <span class="right-timeline-content-arrow"></span>
+                        </div>
+                    </div>
+                    <div class="timeline-content left-timeline-content">
+                        <img src="./assets/img/timeline1.png" alt="">
+                        <div class="text-box">
+                            <h2>APharaoh Khafre và Tượng Nhân Sư (Sphinx).</h2>
+                            <small>Năm 2530 TCN</small>
+                            <p>Pharaoh Khafre, con trai của Khufu, tiếp tục xây dựng công trình của mình tại Giza. Kim Tự Tháp của ông thấp hơn một chút so với Kim Tự Tháp của cha nhưng nổi bật nhờ thiết kế tinh tế.
+                                Tượng Nhân Sư (Great Sphinx) được cho là đại diện cho khuôn mặt của Khafre, với thân hình sư tử tượng trưng cho sức mạnh và quyền lực.
+                                Với chiều dài khoảng 73m và chiều cao 20m, Tượng Nhân Sư là bức tượng đá nguyên khối lớn nhất thế giới, được đục đẽo trực tiếp từ một phiến đá vôi tự nhiên.</p>
+                            <span class="left-timeline-content-arrow"></span>
+                        </div>
+                    </div>
+                    <div class="timeline-content right-timeline-content">
+                        <img src="./assets/img/timeline1.png" alt="">
+                        <div class="text-box">
+                            <h2>Pharaoh Menkaure và Kim Tự Tháp nhỏ nhất tại Giza</h2>
+                            <small>Năm 2510 TCN</small>
+                            <p>Pharaoh Menkaure, cháu nội của Khufu, xây dựng Kim Tự Tháp nhỏ nhất trong ba Kim Tự Tháp chính ở Giza.
+                                Kim Tự Tháp Menkaure có chiều cao ban đầu khoảng 65m, hiện nay chỉ còn khoảng 61m. Dù nhỏ hơn nhưng công trình này nổi bật nhờ lớp đá granit đỏ quý giá ở phần chân đế.
+                                Việc hoàn thành Kim Tự Tháp Menkaure đánh dấu sự kết thúc của thời kỳ xây dựng các Kim Tự Tháp lớn.</p>
+                            <span class="right-timeline-content-arrow"></span>
+                        </div>
+                    </div>
+                    <div class="timeline-content left-timeline-content">
+                        <img src="./assets/img/timeline1.png" alt="">
+                        <div class="text-box">
+                            <h2>Herodotus và sự tái khám phá của thế giới cổ đại</h2>
+                            <small>Thế kỷ 5 TCN</small>
+                            <p>Nhà sử học Hy Lạp Herodotus, trong chuyến du hành đến Ai Cập, đã ghi lại những câu chuyện và miêu tả Kim Tự Tháp Giza.
+                                Ông được coi là người đầu tiên ghi lại thông tin chi tiết về Kim Tự Tháp, bao gồm cả những huyền thoại như việc sử dụng hàng trăm nghìn lao động để xây dựng.
+                                Dù một số ghi chép của Herodotus có thể bị cường điệu hóa, chúng vẫn là nguồn tài liệu quan trọng giúp thế giới biết đến Kim Tự Tháp.</p>
+                            <span class="left-timeline-content-arrow"></span>
+                        </div>
+                    </div>
+                    <div class="timeline-content right-timeline-content">
+                        <img src="./assets/img/timeline1.png" alt="">
+                        <div class="text-box">
+                            <h2>Công nghệ hiện đại khám phá bí ẩn</h2>
+                            <small>2018 - 2019</small>
+                            <p>Các nhà khoa học sử dụng công nghệ tiên tiến như:
+                                Quét nhiệt: Phát hiện sự khác biệt nhiệt độ giữa các khối đá, giúp tìm ra các phòng ẩn chưa được khám phá.
+                                Radar xuyên đất: Xác định cấu trúc bên trong mà không cần phá hủy bề mặt.
+                                Năm 2017, một nhóm nghiên cứu quốc tế đã phát hiện một khoảng trống lớn (căn phòng bí ẩn dài 30m) bên trong Kim Tự Tháp Giza bằng công nghệ chụp tia vũ trụ.
+                                Những phát hiện này tiếp tục mở ra các câu hỏi về mục đích thực sự và các bí mật chưa được giải mã của Kim Tự Tháp.</p>
+                            <span class="right-timeline-content-arrow"></span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="intro" style="padding: 40px 60px;">
+                    <h1 class="intro-heading">Phòng chôn cất bí mật</h1>
+                    <div class="intro-container">
+                        <div class="intro-left">
+                            <img src="./assets/img/aicap-15823.jpg" alt="intro-left-img" style="height: 800px;">
+                        </div>
+                        <div class="intro-right">
+                            <p class="intro-right-des" style="padding-bottom: 40px;">
+                                Phòng chôn cất bí mật trong kim tự tháp Ai Cập luôn là một trong những điều huyền bí nhất của nền văn minh cổ đại. Những phòng này được xây dựng cực kỳ phức tạp với các cạm bẫy và hệ thống phòng thủ tinh vi, nhằm bảo vệ pharaoh và tài sản quý giá khỏi sự xâm nhập của kẻ trộm. Mặc dù một số phòng đã được phát hiện, nhiều bí mật về các phòng ẩn giấu trong kim tự tháp vẫn chưa được giải mã. Công nghệ hiện đại, như radar xuyên đất, đang mở ra cơ hội khám phá những bí ẩn này, mang lại cái nhìn mới về một trong những kỳ quan vĩ đại nhất thế giới.
+                            </p>
+                            <span class="line"></span>
+                            <div class="cta-btn">
+                                <a href="#">Tìm hiểu thêm
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="intro" style="padding: 40px 60px;">
+                    <h1 class="intro-heading">Công nghệ xây dựng</h1>
+                    <div class="intro-container">
+                        <div class="intro-left">
+                            <img src="./assets/img/photo-1-1517892262105352337976.webp" alt="intro-left-img" style="height: 800px;">
+                        </div>
+                        <div class="intro-right">
+                            <p class="intro-right-des" style="padding-bottom: 40px;">
+                                Một trong những ví dụ nổi bật về công nghệ xây dựng cổ đại là các kim tự tháp Ai Cập. Đặc biệt là Đại Kim Tự Tháp Giza, được xây dựng khoảng 4.500 năm trước. Các kỹ sư cổ đại đã sử dụng các công cụ đơn giản như đá cuội, đồng và đồng thau để cắt đá vôi và đá granit. Một trong những giả thuyết phổ biến là họ đã sử dụng các hệ thống ramp (dốc) để vận chuyển các khối đá nặng lên cao, kết hợp với những phương pháp đo đạc tinh vi để đảm bảo độ chính xác tuyệt đối trong từng bước xây dựng.
+                            </p>
+                            <span class="line"></span>
+                            <div class="cta-btn">
+                                <a href="#">Tìm hiểu thêm
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="intro" style="padding: 40px 60px;">
+                    <h1 class="intro-heading">Câu truyện tâm linh</h1>
+                    <div class="intro-container">
+                        <div class="intro-left">
+                            <img src="./assets/img/than-anubis-650.jpg" alt="intro-left-img" style="height: 800px;">
+                        </div>
+                        <div class="intro-right">
+                            <p class="intro-right-des" style="padding-bottom: 40px;">
+                                Có một câu chuyện nổi tiếng trong văn hóa tâm linh là về một người phụ nữ qua đời vì bệnh tật. Sau khi chết, linh hồn cô không thể siêu thoát vì còn vương vấn chuyện tình yêu và những điều chưa kịp nói với người yêu. Cô xuất hiện trong những giấc mơ của người yêu mình, khẩn cầu anh tìm cách giúp cô giải thoát. Cuối cùng, người yêu cô thực hiện một nghi lễ cúng bái, làm những việc cô chưa hoàn thành khi còn sống. Sau đó, linh hồn cô mới được siêu thoát và yên nghỉ. Câu chuyện này nhấn mạnh sự quan trọng của việc giải quyết những vướng mắc trong cuộc sống để có thể thanh thản ra đi.
+                            </p>
+                            <span class="line"></span>
+                            <div class="cta-btn">
+                                <a href="#">Tìm hiểu thêm
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <footer class="footer">
+            <p class="footer-text">Copyright © 2024 <span>Red Team </span> All rights reserved.</p>
+            <div class="footer-social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-square-x-twitter"></i>
+            </div>
+            <div class="lang">
+                <i class="fa-solid fa-earth-americas"></i>
+                <span>VIETNAM</span>
+            </div>
+        </footer>
+    </div>
+</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js" integrity="sha512-jEnuDt6jfecCjthQAJ+ed0MTVA++5ZKmlUcmDGBv2vUI/REn6FuIdixLNnQT+vKusE2hhTk2is3cFvv5wA+Sgg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./main.js"></script>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pyramid</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    
+    <style>
+        html.lenis,
+        html.lenis body {
+            height: auto;
+        }
+
+        .lenis.lenis-smooth {
+            scroll-behavior: auto !important;
+        }
+
+        .lenis.lenis-smooth [data-lenis-prevent] {
+            overscroll-behavior: contain;
+        }
+
+        .lenis.lenis-stopped {
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body style="background-color: #000;">
+    <div class="main">
+        <header class="header">
+            <div class="logo">Pyramid</div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="./index.html">Trang chủ</a></li>
+                    <li class="nav-item"><a href="./lichsu.html">Lịch sử</a></li>
+                    <li class="nav-item nav-item--active"><a href="#">Khám phá</a></li>
+                    <li class="nav-item"><a href="./tour.html">Tour</a></li>
+                </ul>
+
+                <div class="menu">
+                    <div class="btn-menu" onclick="on()">
+                        <i class="fa-solid fa-bars"></i>
+                    
+                        <div id="overlay">
+                            <button class="btn-close" onclick="off()">
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+                            <div class="menu">
+                                <ul class="menu-list">
+                                    <li class="menu-item"><a href="./index.html">Trang chủ</a></li>
+                                    <li class="menu-item"><a href="./lichsu.html">Lịch sử</a></li>
+                                    <li class="menu-item menu-item--active a"><a href="./khampha.html">Khám phá</a></li>
+                                    <li class="menu-item"><a href="./tour.html">Tour</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+
+        <div class="container">
+            <div class="content">
+                <section class="section-discover">
+                    <img src="./assets/img/bg.jpg" alt="" id="bg">
+                    <img src="./assets/img/moon.png" alt="" id="moon">
+                    <img src="./assets/img/pyramid.png" alt="" id="pyramid">
+                    <img src="./assets/img/road.png" alt="" id="road">
+                    <h2 id="text">KHÁM PHÁ</h2>
+                </section>
+                <section class="explores">
+                    <div class="explores-header">
+                        <div class="col"></div>
+                        <div class="col"><h1>All Services</h1></div>
+                    </div>
+                    <div class="explore">
+                        <div class="explore-info">
+                            <h1>Phòng bí mật</h1>
+                            <p>
+                                Các nhà khảo cổ đã phát hiện dấu hiệu của những phòng bí mật sâu bên trong Kim Tự Tháp Giza, có thể chứa đựng các bảo vật hay bí mật cổ xưa. Tuy nhiên, chúng vẫn chưa được khám phá hết.
+                            </p>
+                        </div>
+                        <div class="explore-img">
+                            <div class="img">
+                                <img src="./assets/img/pexels-diego-f-parra-33199-15131496.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="explore">
+                        <div class="explore-info">
+                            <h1>Cổ vật kỳ lạ</h1>
+                            <p>
+                                Kim Tự Tháp là nơi lưu giữ những cổ vật quý giá, từ vàng bạc, tượng thờ đến những đồ vật kỳ lạ chưa rõ công dụng. Những khám phá này vẫn gây tò mò cho các nhà nghiên cứu.
+                        </div>
+                        <div class="explore-img">
+                            <div class="img">
+                                <img src="./assets/img/pexels-axp-photography-500641970-16386717.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="explore">
+                        <div class="explore-info">
+                            <h1>Lăng Mộ Của Các Pharaoh</h1>
+                            <p>
+                                Các lăng mộ của Pharaoh không chỉ là nơi chôn cất mà còn là kho tàng chứa đựng nhiều bí mật. Những đồ vật và tranh tường trong lăng mộ vẫn là minh chứng sống động về nền văn minh cổ đại.
+                            </p>
+                        </div>
+                        <div class="explore-img">
+                            <div class="img">
+                                <img src="./assets/img/pexels-axp-photography-500641970-18934713.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="explore">
+                        <div class="explore-info">
+                            <h1>Những Điều Bí Ẩn Chưa Lý Giải</h1>
+                            <p>
+                                Vẫn chưa rõ người Ai Cập cổ đại đã xây dựng những kim tự tháp khổng lồ như thế nào. Nhiều giả thuyết vẫn được đưa ra, từ việc sử dụng công nghệ cổ xưa đến sự trợ giúp từ nền văn minh khác.
+                        </div>
+                        <div class="explore-img">
+                            <div class="img">
+                                <img src="./assets/img/tom-podmore-oCkZ6WicY8Q-unsplash.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="news-epl">
+                    <div class="news-epl-header">
+                        <img src="./assets/img/img-bg-new-elp.png" alt="">
+                        <div class="news-epl-header-text">
+                            <h1>NHỮNG KHÁM PHÁ <br> MỚI NHẤT</h1>
+                            <p>Công nghệ như  radar xuyên lòng đất và robot thám hiểm giúp phát hiện phỏng ẩn và lối đi bí mật mới. Nhiều cổ vật và văn tự cổ được khai quật, mở ra góc nhìn mới về người Ai Cập cổ đại.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-epl-body">
+                    <p>Gần đây, những phòng ẩn và lối đi bí mật mới đã được phát hiện, hé lộ thêm về cấu trúc phức tạp bên trong. Ngoài ra, nhiều cổ vật và văn tự cổ quan trọng cũng được khai quật, mở ra góc nhìn mới về cuộc sống và tín ngưỡng của người Ai Cập cổ đại. Những khám phá này không chỉ làm sáng tỏ quá khứ mà còn khơi dậy nhiều câu hỏi mới cho tương lai.</p>
+
+                    <img src="./assets/img/img-bg-new-elp2.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p class="footer-text">Copyright © 2024 <span>Red Team </span> All rights reserved.</p>
+            <div class="footer-social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-square-x-twitter"></i>
+            </div>
+            <div class="lang">
+                <i class="fa-solid fa-earth-americas"></i>
+                <span>VIETNAM</span>
+            </div>
+        </footer>
+    </div>
+</body> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intersection-observer/0.12.2/intersection-observer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/lenis@1.1.1/dist/lenis.min.js"></script>
+    <script src="./main.js"></script>
+</html>

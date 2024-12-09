@@ -1,0 +1,48 @@
+@media (max-width: 480px) {
+    /* header */
+    .header {
+        padding: 0 20px;
+    }
+
+    /* menu */
+    .nav-list {
+        display: none;
+    }
+
+    /* page KhamPha */
+    .section-discover #text {
+        font-size: 5rem;
+    }
+
+    #moon {
+        display: none;
+    }
+}
+
+
+/*  tablet */
+@media (min-width: 481px) and (max-width: 1024px) {
+    /* menu */
+    .nav-list {
+        display: none;
+    }
+
+    /* page khampha */
+    .section-discover #text {
+        font-size: 5rem;
+    }
+
+    #moon {
+        display: none;
+    }
+}
+
+/* desktop */
+@media (min-width: 1025px) {
+    .menu {
+        display: none;
+    }
+    #text {
+        margin-bottom: 300px;
+    }
+}
